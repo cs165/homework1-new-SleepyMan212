@@ -78,13 +78,15 @@ header{
 }
 .content{
   /* width: 66.7%; */
-  max-width: 66.7%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  /* justify-content: center; */
 }
 .beverage{
+  max-width: 66.7%;
   margin-top: 60px;
   margin-bottom: 60px;
-  padding-left: 40px;
+  /* padding-left: 40px; */
+  margin-left: 40px;
 }
 .beverage>div{
   margin: 0 0 20px 0;
@@ -115,4 +117,7 @@ header{
 }
 .b-link:hover{
   text-decoration: underline;
+}
+.justify-content-center{
+  justify-content: center;
 }
